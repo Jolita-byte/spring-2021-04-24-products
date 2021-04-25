@@ -11,7 +11,7 @@ import java.util.Map;
 @Configuration
 public class ProductConfig {
 
-    @Bean
+/*    @Bean
     public Map<ProductType, Double> allProductPrices(ProductPrice productPrice){
         Map<ProductType, Double> productPrices = new HashMap<>();
         productPrices.put(ProductType.APPLE, productPrice.getApplePrice());
@@ -29,7 +29,7 @@ public class ProductConfig {
         productStocks.put(ProductType.CARROT, productInitialStock.getCarrot());
         productStocks.put(ProductType.POTATO, productInitialStock.getPotato());
         return productStocks;
-    }
+    }*/
 
     @Bean
     public ProductValidator productValidator (){
